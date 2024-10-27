@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, red, orange); /* Gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color:white; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color:red; 
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="number"] {
+    padding: 15px;
+    margin: 10px ;
+    border: 1px solid green; /* Teal border */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.currency-select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+select {
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid green; 
+    border-radius: 5px;
+    font-size: 15px;
+    width: 50%;
+}
+
+span {
+    font-size: 20px;
+    color:green; 
+}
+
+button {
+    background-color: teal; 
+    color: #ffffff; 
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #004d40; 
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #00796b;
+}
